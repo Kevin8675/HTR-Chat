@@ -6,15 +6,9 @@
 
 /* Application-wide Styles */
 h1 {
-<<<<<<< HEAD
     color: #369;
     font-family: DOS;
     font-size: 300%;
-=======
-    color: rgb(51, 109, 153);
-    font-family: DOS,;
-    font-size: 250%;
->>>>>>> 1a6877725a9f0d63a8c4422708b268bb9a959f67
   }
   h2, h3 {
     color: rgb(255, 255, 255);
