@@ -5,6 +5,8 @@
 }
 
 /* Application-wide Styles */
+html {background-color:#008080;}
+* {background-color: #008080}
 h1 {
     color: #369;
     font-family: DOS;
