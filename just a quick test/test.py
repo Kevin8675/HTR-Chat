@@ -1,1 +1,0 @@
-print("I wana kms")
