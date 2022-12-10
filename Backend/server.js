@@ -4,7 +4,7 @@ var http = require('http');
 var port = '8081'
 app.set('port', port);
 var server = http.createServer(app);
-var io = require('socket.io').listen(server);
+const io = require('socket.io')(port);
 io.on('connection',(socket)=>{
   socket.on('join', function(data){
     socket.join(data.room);
