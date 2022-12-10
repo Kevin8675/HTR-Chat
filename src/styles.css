@@ -1,12 +1,18 @@
-/* Application-wide Styles 
+/* Fonts */
+@font-face {
+  font-family: "DOS";
+  src: local("DOS"), url(./assets/MorePerfectDOSVGA.ttf) format("truetype");
+}
+
+/* Application-wide Styles */
 h1 {
     color: #369;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: DOS,;
     font-size: 250%;
   }
   h2, h3 {
     color: #444;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: DOS;
     font-weight: lighter;
   }
   body {
@@ -14,12 +20,12 @@ h1 {
   }
   body, input[type="text"], button {
     color: #333;
-    font-family: Cambria, Georgia, serif;
+    font-family: DOS;
   }
   button {
     background-color: #eee;
     border: none;
-    border-radius: 4px;
+    border-radius: 0px;
     cursor: pointer;
     color: black;
     font-size: 1.2rem;
@@ -38,8 +44,7 @@ h1 {
     cursor: auto;
   }
   
+  /* everywhere else */
   * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: DOS;
   }
-
-  */
