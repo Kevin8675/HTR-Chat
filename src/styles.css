@@ -6,12 +6,12 @@
 
 /* Application-wide Styles */
 h1 {
-    color: #369;
+    color: rgb(51, 109, 153);
     font-family: DOS,;
     font-size: 250%;
   }
   h2, h3 {
-    color: #444;
+    color: rgb(255, 255, 255);
     font-family: DOS;
     font-weight: lighter;
   }
