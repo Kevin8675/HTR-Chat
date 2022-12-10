@@ -8,7 +8,7 @@ export class chatService {
 
   constructor() { }
 
-  private socket = io('http://localhost:8081');
+  private socket = io('http://10.210.2.45:8081');
 
   joinRoom(data)
   {

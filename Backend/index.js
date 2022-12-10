@@ -1,14 +1,15 @@
 var express = require('express');
-var cors = require('cors');
 var app = express();
+var cors = require('cors');
 var http = require('http');
 var port = '8081';
 var server = http.createServer(app);
-
 app.use(cors());
 app.get('/products/:id', function (req, res, next) {});
-
-const io = require('socket.io')(server);io.on('connection',(socket)=>{
+const io = require('socket.io')(server, {
+  cors: {origin : '*'}
+});
+io.on('connection',(socket)=>{
   socket.on('join', function(data){
     socket.join(data.room);
     io.emit('new user joined', {user:data.user, message:'has joined  room.'});
