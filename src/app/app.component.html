@@ -3,18 +3,22 @@
     <h2>Hack The Ridge Chat</h2>
     <hr>
   </div>
-
   <body>
+
     Secuitly Chat with other ppl through GitHub, where all messsages will be deleted when you refersh!
   </body>
+  <style>
+    body {font-family: 'Times New Roman', Times, serif;}
+  </style>
+    <p>
+      <ol>
+        <li>Secure</li>
+        <li>Hosted Safly on GitHub</li>
+        <li>Don't save your chat history</li>
+        <li>Swissed base privacy laws</li>
+      </ol>
 
-  <ol>
-    <li>Secure</li>
-    <li>Hosted Safly on GitHub</li>
-    <li>Don't save your chat history</li>
-    <li>Swissed base privacy laws</li>
-  </ol>
-
+    <br>
   <div class="row">
     <div class="col-sm-5">
       <div class="form-group">
@@ -22,6 +26,7 @@
         <input type="text" [(ngModel)]="user" class="form-control" id="username" placeholder="Enter username">
       </div>
     </div>
+
      <div class="col sm-2">
       <div style="margin-top:19px;">
         <button type="button" class="btn btn-primary" (click)="join()">Join</button>
@@ -29,7 +34,7 @@
       </div>
     </div>
   </div>
-
+<br>
   <div class="row">
     <div class="well" style="height:200px; padding:15px;">{{messageArray}}
       <div *ngFor="let item of messageArray">
