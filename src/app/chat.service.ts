@@ -9,16 +9,12 @@ export class chatService {
   constructor() { }
 
   // change to local host
-<<<<<<< Updated upstream
 
-  // to start server use ng serve --open in terminal
-  // 
+  // to start server use: ng serve --open in terminal
+  // in a new terminal cd into the directory then type this in: node backend/index.js
+
   
   private socket = io('localhost:8081');
-=======
-  
-  private socket = io('http://localhost:8081');
->>>>>>> Stashed changes
 
   joinRoom(data)
   {
