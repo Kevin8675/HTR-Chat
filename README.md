@@ -1,6 +1,6 @@
 # HTR Chat
 
-A simple Open Source Chat Service built with Angular.
+A simple Open Source Chat Room Service built with Angular.
 
 Features:
 - Private
