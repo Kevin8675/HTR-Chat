@@ -9,11 +9,9 @@
     <p>
       <ol>
         <li>Secure</li>
-        <li>Messages are deleted from the server when you close the website to protect user privacy</li>
-        <li>Open Source on <a href="https://github.com/Kevin8675/HacktheRidge-Retro-Forums">GitHub</a>
-        </li>
+        <li>Private</li>
+        <li>Open Source on <a href="https://github.com/Kevin8675/HacktheRidge-Retro-Forums" target="_blank">GitHub</a></li>
       </ol>
-
     <br>
   <div class="row">
     <div class="col-sm-5">
@@ -24,16 +22,17 @@
     </div>
 
      <div class="col sm-2">
-      <div style="margin-top:19px;">
+      <div style="margin-top:23px;">
         <button type="button" class="btn btn-primary" (click)="join()">Join</button>
        <button type="button" class="btn btn-default" (click)="leave()">Leave</button>
       </div>
     </div>
   </div>
 <br>
+<h4>Chat</h4>
   <div class="row">
-    <div class="well" style="height:200px; padding:15px;">{{messageArray}}
-      <div *ngFor="let item of messageArray">
+    <div class="well" style="height:200px; padding:15px; margin-left: 0.7em; margin-right: 0.7em; background-color: white;">{{messageArray}}
+      <div *ngFor="let item of messageArray" style="background-color:white">
         <span><strong>{{item.user}} : </strong> {{item.message}}</span>
       </div>
     </div>
@@ -43,6 +42,6 @@
       <input type="text" class="form-control" [(ngModel)]="messageText">
     </div>
     <div class="col-sm-2">
-      <button type="button" class="btn btn-success pull-right" (click)="sendMessage()">Send</button>
+      <button type="button" class="btn btn-success pull-right" (click)="sendMessage()" style="margin-top: 0em;">Send</button>
     </div>
   </div>
