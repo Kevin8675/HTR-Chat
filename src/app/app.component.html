@@ -39,9 +39,9 @@
   </div>
   <div class="row">
     <div class="col-sm-10">
-      <input type="text" class="form-control" [(ngModel)]="messageText">
+      <input id="msg" type="text" class="form-control" [(ngModel)]="messageText" placeholder="Enter your message here">
     </div>
     <div class="col-sm-2">
-      <button type="button" class="btn btn-success pull-right" (click)="sendMessage()" style="margin-top: 0em;">Send</button>
+      <button id="send" type="button" class="btn btn-success pull-right" onclick="clear.js" (click)="sendMessage()" style="margin-top: 0em;">Send</button>
     </div>
   </div>
