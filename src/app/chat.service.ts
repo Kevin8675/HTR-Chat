@@ -8,7 +8,12 @@ export class chatService {
 
   constructor() { }
 
-  private socket = io('http://10.210.2.45:8081');
+  // change to local host
+
+  // to start server use ng serve --open in terminal
+  // 
+  
+  private socket = io('localhost:8081');
 
   joinRoom(data)
   {
