@@ -31,7 +31,7 @@
 <br>
 <h4>Chat</h4>
   <div class="row">
-    <div class="well" style="height:200px; padding:15px; margin-left: 0.7em; margin-right: 0.7em; background-color: white;">{{messageArray}}
+    <div class="well" style="height:300px; padding:15px; margin-left: 0.7em; margin-right: 0.7em; background-color: white;" style="overflow-y:scroll">{{messageArray}}
       <div *ngFor="let item of messageArray" style="background-color:white">
         <span><strong>{{item.user}} : </strong> {{item.message}}</span>
       </div>
