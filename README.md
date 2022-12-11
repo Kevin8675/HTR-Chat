@@ -1,4 +1,4 @@
-# HacktheRidge Chat
+# HTR Chat
 
 A simple Open Source Chat Service built with Angular.
 
