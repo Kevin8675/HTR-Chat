@@ -11,8 +11,8 @@ export class chatService {
   // change to local host
 
   // to start server on localhost use: ng serve --open in terminal
-  // to host server on your computer so other people can use it use ng serve --host=0.0.0.0:4200 in terminal
-  // in a new terminal cd into the directory then type this in: node backend/index.js
+  // to host server on your computer so other people can use it run 'ng serve --host=0.0.0.0' in terminal
+  // in a new terminal cd into the directory and run 'node backend/index.js'
  
   
   private socket = io('localhost:8081');
