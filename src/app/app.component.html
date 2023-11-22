@@ -17,7 +17,8 @@
     <div class="col-sm-5">
       <div class="form-group">
         <label for="username">Username:</label>
-        <input type="text" [(ngModel)]="user" class="form-control" id="username" placeholder="Enter username">
+        <!-- Add the (keypress) attribute for joining on Enter key press -->
+        <input type="text" [(ngModel)]="user" class="form-control" id="username" placeholder="Enter username" (keypress)="handleJoinKeyPress($event)">
       </div>
     </div>
 
@@ -39,9 +40,11 @@
   </div>
   <div class="row">
     <div class="col-sm-10">
-      <input id="msg" type="text" class="form-control" [(ngModel)]="messageText" placeholder="Enter your message here">
+      <!-- Add the (keypress) attribute for handling the Enter key press -->
+      <input id="msg" type="text" class="form-control" [(ngModel)]="messageText" placeholder="Enter your message here" (keypress)="handleKeyPress($event)">
     </div>
     <div class="col-sm-2">
       <button id="send" type="button" class="btn btn-success pull-right" onclick="clear.js" (click)="sendMessage()" style="margin-top: 0em;">Send</button>
     </div>
   </div>
+</div>
