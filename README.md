@@ -1,17 +1,28 @@
-# HTR Chat
+# HTR Chat :speech_balloon:
 
-A simple Open Source Chat Room Service built with Angular! 
+HTR Chat is a simple, private, and secure Open Source Chat Room Service. It's built with Angular and follows a retro design theme. This project was developed for Hack The Ridge 2022 and is nominated as one of the top projects!
 
-This project was built by Fred Yang, Peter Shao, Aiden Pinto, and Kevin Rjeousski.
+## Table of Contents
+- [Developers](#developers)
+- [Features](#features)
+- [Pitch Slideshow](#pitch-slideshow)
+- [License](#license)
 
-This was project was built for Hack The Ridge 2022, and follows a retro design theme as outlined in the Hackathon guidelines.
+## Developers
+This project was built by:
+- Fred Yang
+- Peter Shao
+- Aiden Pinto
+- Kevin Rjeousski
 
-Link to Pitch Slideshow: http://bit.ly/462UbYH
+## Features
+- **Private**: Your conversations stay between you and the people you're chatting with.
+- **Secure**: We prioritize your security, ensuring your data is safe.
+- **Open Source**: Feel free to contribute and make this project even better!
+- **Retro Themed**: A unique design that stands out from the crowd.
 
-This project is nominated for the top projects of Hack The Ridge 2022! 
+## Pitch Slideshow
+You can view our pitch slideshow [here](http://bit.ly/462UbYH).
 
-Features:
-- Private
-- Secure
-- Open Source
-- Retro Themed
+## License
+This project is open source under the MIT license.
