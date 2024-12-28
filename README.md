@@ -1,4 +1,5 @@
-# HTR Chat :speech_balloon:
+# ![htrc](https://github.com/user-attachments/assets/67ffb978-4de6-4517-943b-d2ffe071b6ad)
+
 
 HTR Chat is a simple, private, and secure Open Source Chat Room Service. It's built with Angular and follows a retro design theme. This project was developed for Hack The Ridge 2022 and is nominated as one of the top projects!
 
